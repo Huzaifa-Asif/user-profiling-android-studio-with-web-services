@@ -58,7 +58,7 @@ public class register extends AppCompatActivity{
                 //if user pressed on login
                 //we will open the login screen
                 finish();
-                startActivity(new Intent(register.this, LoginActivity.class));
+                startActivity(new Intent(register.this, MainActivity.class));
             }
         });
 
